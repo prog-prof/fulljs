@@ -1,0 +1,32 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveFileBeforeRun": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": false,
+      "source.fixAll.eslint": true
+    }
+  },
+  "html.autoClosingTags": true,
+  "html.format.wrapLineLength": 0,
+  "html.format.maxPreserveNewLines": 5,
+  "html.format.endWithNewline": true,
+  // "html.format.enable": true,
+  "html.format.preserveNewLines": false,
+  // "css.validate": true,
+  // "liveServer.settings.NoBrowser": true,
+  "liveServer.settings.wait": 0,
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts",
+  ],
+  // "standard.enable": false
+  // "liveServer.settings.root": "/public"
+}

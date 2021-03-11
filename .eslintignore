@@ -1,0 +1,4 @@
+.vscode
+views
+node_modules/**
+public/**
